@@ -66,8 +66,7 @@ while True:
                      result = ('Good Afternoon ' + name)
                 else:
                      result = ('Good Evening ' + name)
-                engine.say(result)
-                engine.say('Nice to meet you')
+                engine.say(result + ' Nice to meet you')
                 time.sleep(0.3)
 
             face_names.append(name)
